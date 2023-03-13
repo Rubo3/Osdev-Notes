@@ -43,7 +43,7 @@ Using logical address and paging, we can introduce a new address space that can 
 For example: 
 
 ```math
-phys#0x123456 = virt\#0xffff2345235
+phys(0x123456) = virt(0xffff2345235)
 ```
 
 In x86 this mapping is achieved through the usage of several hierarchical tables, with  each item in one level pointing to the next level table. 
