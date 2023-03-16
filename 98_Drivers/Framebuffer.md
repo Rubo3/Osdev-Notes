@@ -120,7 +120,7 @@ The first thing we need to do when we want to plot a pixel is to compute the add
 If we want to know the actual row offset we need then to: 
 
 $$
-row = y * framebuffer_pitch
+row = y * framebuffer\_{pitch}
 $$
 
 and similarly for the column we need to: 
